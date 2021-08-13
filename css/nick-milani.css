@@ -790,6 +790,15 @@
   padding: 25px;
 }
 
+.link-4 {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.link-5 {
+  font-style: italic;
+}
+
 @media screen and (max-width: 991px) {
   .grid {
     -ms-grid-columns: 1fr;
@@ -1013,6 +1022,10 @@
     font-weight: 300;
   }
 
+  .heading-2.success {
+    padding-bottom: 20px;
+  }
+
   .heading-3 {
     font-size: 5vw;
     line-height: 4vh;
@@ -1216,6 +1229,10 @@
 
   .div-block-10._2 {
     margin-top: 20px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .heading-11 {
@@ -1255,6 +1272,11 @@
 
   .div-block-15 {
     margin-top: 20px;
+  }
+
+  .heading-12.success {
+    line-height: 100px;
+    text-align: center;
   }
 }
 
