@@ -1004,6 +1004,7 @@
 
   .heading-7 {
     margin-bottom: 0px;
+    padding: 15px;
     font-size: 5vw;
     line-height: 4vh;
     font-weight: 300;
@@ -1153,6 +1154,8 @@
 
   .div-block-10 {
     margin-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
   }
 
   .div-block-10._2 {
