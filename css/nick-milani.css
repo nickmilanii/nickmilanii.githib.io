@@ -174,7 +174,7 @@
 }
 
 .heading-4._2 {
-  display: none;
+  display: block;
   margin-top: 10px;
 }
 
@@ -429,7 +429,7 @@
 }
 
 .wrapper {
-  display: none;
+  display: block;
   margin-top: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -653,7 +653,7 @@
 }
 
 .div-block-13 {
-  display: none;
+  display: block;
   margin-top: 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -713,7 +713,10 @@
 }
 
 .div-block-15 {
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .text-span {
@@ -789,6 +792,10 @@
 
 .link-5 {
   font-style: italic;
+}
+
+.heading-13 {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -1058,7 +1065,7 @@
   }
 
   .heading-5.p1 {
-    display: none;
+    display: block;
   }
 
   .list {
@@ -1174,7 +1181,7 @@
   .heading-10 {
     font-size: 5vw;
     line-height: 4vh;
-    text-align: center;
+    text-align: left;
   }
 
   .js-clock {
