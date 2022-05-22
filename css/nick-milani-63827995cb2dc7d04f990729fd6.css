@@ -618,6 +618,13 @@
   margin-top: 30px;
 }
 
+.div-block-10.front {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
 .heading-11 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -627,9 +634,14 @@
   font-weight: 300;
 }
 
+.heading-11.front {
+  margin-left: 10px;
+}
+
 .link-3 {
   color: #333;
   font-style: italic;
+  font-weight: 500;
 }
 
 .div-block-11 {
@@ -878,6 +890,7 @@
 
 .link-7 {
   color: #ff9100;
+  font-weight: 700;
   text-decoration: underline;
 }
 
@@ -1363,8 +1376,8 @@
   }
 
   .link-3 {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
     text-align: center;
   }
 
